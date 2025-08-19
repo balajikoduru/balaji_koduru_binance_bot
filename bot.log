@@ -1,0 +1,371 @@
+2025-08-19 11:51:12,332 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 11:51:12,570 | ERROR | http | POST /fapi/v1/order 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-08-19 11:56:01,966 | WARNING | http | API key/secret not set. Set BINANCE_API_KEY and BINANCE_API_SECRET.
+2025-08-19 11:56:02,623 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 11:56:02,816 | ERROR | http | POST /fapi/v1/order 401: {"code":-2014,"msg":"API-key format invalid."}
+2025-08-19 11:57:43,220 | WARNING | http | API key/secret not set. Set BINANCE_API_KEY and BINANCE_API_SECRET.
+2025-08-19 11:57:44,883 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 11:57:45,079 | ERROR | http | POST /fapi/v1/order 401: {"code":-2014,"msg":"API-key format invalid."}
+2025-08-19 11:58:45,833 | WARNING | http | API key/secret not set. Set BINANCE_API_KEY and BINANCE_API_SECRET.
+2025-08-19 11:58:47,990 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 11:58:48,207 | ERROR | http | POST /fapi/v1/order 401: {"code":-2014,"msg":"API-key format invalid."}
+2025-08-19 12:16:38,091 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 12:16:38,127 | INFO | market | Placing MARKET BUY BTCUSDT qty=0.001
+2025-08-19 12:16:38,128 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2025-08-19 12:16:38,130 | INFO | market | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2025-08-19 12:16:59,590 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 12:16:59,594 | INFO | limit | Placing LIMIT SELL BTCUSDT qty=0.001 price=69999.9
+2025-08-19 12:16:59,595 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 69999.9, 'timeInForce': 'GTC'}
+2025-08-19 12:16:59,596 | INFO | limit | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 69999.9, 'timeInForce': 'GTC'}
+2025-08-19 12:17:14,528 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 12:17:14,534 | INFO | stop_limit | Placing STOP-LIMIT: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.001, 'price': 67999.9, 'stopPrice': 68499.9, 'timeInForce': 'GTC', 'workingType': 'CONTRACT_PRICE', 'priceProtect': 'TRUE'}
+2025-08-19 12:17:14,536 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.001, 'price': 67999.9, 'stopPrice': 68499.9, 'timeInForce': 'GTC', 'workingType': 'CONTRACT_PRICE', 'priceProtect': 'TRUE'}
+2025-08-19 12:17:14,537 | INFO | stop_limit | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.001, 'price': 67999.9, 'stopPrice': 68499.9, 'timeInForce': 'GTC', 'workingType': 'CONTRACT_PRICE', 'priceProtect': 'TRUE'}
+2025-08-19 12:17:33,488 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 12:17:33,493 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 12:17:33,495 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 12:17:33,497 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 12:17:33,672 | ERROR | http | GET /fapi/v1/order 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-08-19 12:22:49,268 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 12:22:49,272 | INFO | market | Placing MARKET BUY BTCUSDT qty=0.001
+2025-08-19 12:22:49,274 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2025-08-19 12:22:49,275 | INFO | market | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2025-08-19 12:22:58,618 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 12:22:58,621 | INFO | limit | Placing LIMIT SELL BTCUSDT qty=0.001 price=69999.9
+2025-08-19 12:22:58,622 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 69999.9, 'timeInForce': 'GTC'}
+2025-08-19 12:22:58,622 | INFO | limit | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 69999.9, 'timeInForce': 'GTC'}
+2025-08-19 12:23:12,434 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 12:23:12,437 | INFO | stop_limit | Placing STOP-LIMIT: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.001, 'price': 67999.9, 'stopPrice': 68499.9, 'timeInForce': 'GTC', 'workingType': 'CONTRACT_PRICE', 'priceProtect': 'TRUE'}
+2025-08-19 12:23:12,438 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.001, 'price': 67999.9, 'stopPrice': 68499.9, 'timeInForce': 'GTC', 'workingType': 'CONTRACT_PRICE', 'priceProtect': 'TRUE'}
+2025-08-19 12:23:12,440 | INFO | stop_limit | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.001, 'price': 67999.9, 'stopPrice': 68499.9, 'timeInForce': 'GTC', 'workingType': 'CONTRACT_PRICE', 'priceProtect': 'TRUE'}
+2025-08-19 12:23:32,599 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 12:23:32,602 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 12:23:32,603 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 12:23:32,605 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 12:23:32,884 | ERROR | http | GET /fapi/v1/order 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-08-19 12:38:07,736 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 12:38:07,760 | INFO | twap | TWAP BUY BTCUSDT total=0.01 slices=5 perSlice=0.002
+2025-08-19 12:38:07,763 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-19 12:38:07,764 | INFO | twap | Slice 1/5: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-19 12:38:17,766 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-19 12:38:17,767 | INFO | twap | Slice 2/5: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-19 12:38:27,770 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-19 12:38:27,772 | INFO | twap | Slice 3/5: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-19 12:38:37,774 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-19 12:38:37,775 | INFO | twap | Slice 4/5: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-19 12:38:47,779 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-19 12:38:47,780 | INFO | twap | Slice 5/5: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-19 12:38:59,820 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 12:38:59,824 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'price': 64999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 12:38:59,827 | INFO | grid | Grid BUY at 64999.9: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'price': 64999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 12:38:59,830 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'price': 66999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 12:38:59,833 | INFO | grid | Grid BUY at 66999.9: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'price': 66999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 12:38:59,837 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'price': 68999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 12:38:59,838 | INFO | grid | Grid BUY at 68999.9: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'price': 68999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 12:38:59,840 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'price': 70999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 12:38:59,841 | INFO | grid | Grid SELL at 70999.9: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'price': 70999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 12:38:59,845 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'price': 72999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 12:38:59,846 | INFO | grid | Grid SELL at 72999.9: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'price': 72999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 12:38:59,847 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'price': 74999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 12:38:59,848 | INFO | grid | Grid SELL at 74999.9: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'price': 74999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 12:38:59,850 | INFO | grid | Placed 6 grid orders
+2025-08-19 12:39:25,060 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 12:39:25,064 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 12:39:25,066 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 12:39:25,069 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 12:39:25,394 | ERROR | http | GET /fapi/v1/order 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-08-19 12:56:06,384 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 12:56:06,393 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 12:56:06,394 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 12:56:06,395 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 12:56:06,866 | ERROR | http | GET /fapi/v1/order 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-08-19 13:03:01,087 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 13:03:01,096 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 13:03:01,099 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 13:03:01,100 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 13:03:01,280 | ERROR | http | GET /fapi/v1/order 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-08-19 13:03:30,690 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 13:03:30,693 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 13:03:30,695 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 13:03:30,697 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 13:03:30,869 | ERROR | http | GET /fapi/v1/order 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-08-19 13:07:19,857 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 13:07:19,870 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 13:07:19,872 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 13:07:19,873 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 13:07:20,261 | ERROR | http | GET /fapi/v1/order 400: {"code":-1022,"msg":"Signature for this request is not valid."}
+2025-08-19 13:09:09,802 | WARNING | http |  Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 13:09:10,230 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 13:09:10,233 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 13:09:10,235 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 13:09:10,236 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 13:09:10,607 | ERROR | http | GET /fapi/v1/order 400: {"code":-1022,"msg":"Signature for this request is not valid."}
+2025-08-19 13:09:17,201 | WARNING | http |  Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 13:09:17,848 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 13:09:17,852 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 13:09:17,853 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 13:09:17,855 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 13:09:18,222 | ERROR | http | GET /fapi/v1/order 400: {"code":-1022,"msg":"Signature for this request is not valid."}
+2025-08-19 13:13:30,126 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 13:13:30,164 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 13:13:30,165 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 13:13:30,166 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 13:13:30,531 | ERROR | http | GET /fapi/v1/order 400: {"code":-1022,"msg":"Signature for this request is not valid."}
+2025-08-19 14:25:54,811 | WARNING | http |  Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 14:25:55,380 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 14:25:55,383 | INFO | market | Placing MARKET BUY BTCUSDT qty=0.001
+2025-08-19 14:25:55,432 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2025-08-19 14:25:55,433 | INFO | market | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2025-08-19 14:27:31,257 | WARNING | http |  Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 14:27:31,722 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 14:27:31,726 | INFO | limit | Placing LIMIT SELL BTCUSDT qty=0.001 price=69999.9
+2025-08-19 14:27:31,727 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 69999.9, 'timeInForce': 'GTC'}
+2025-08-19 14:27:31,729 | INFO | limit | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 69999.9, 'timeInForce': 'GTC'}
+2025-08-19 14:28:50,649 | WARNING | http |  Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 14:28:51,306 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 14:28:51,309 | INFO | stop_limit | Placing STOP-LIMIT: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.001, 'price': 67999.9, 'stopPrice': 68499.9, 'timeInForce': 'GTC', 'workingType': 'CONTRACT_PRICE', 'priceProtect': 'TRUE'}
+2025-08-19 14:28:51,310 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.001, 'price': 67999.9, 'stopPrice': 68499.9, 'timeInForce': 'GTC', 'workingType': 'CONTRACT_PRICE', 'priceProtect': 'TRUE'}
+2025-08-19 14:28:51,312 | INFO | stop_limit | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.001, 'price': 67999.9, 'stopPrice': 68499.9, 'timeInForce': 'GTC', 'workingType': 'CONTRACT_PRICE', 'priceProtect': 'TRUE'}
+2025-08-19 14:29:40,981 | WARNING | http |  Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 14:29:41,332 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 14:29:41,336 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 14:29:41,337 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 14:29:41,338 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 14:29:41,746 | ERROR | http | GET /fapi/v1/order 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-08-19 15:28:35,541 | WARNING | http |  Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 15:28:36,228 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 15:28:36,233 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 15:28:36,234 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 15:28:36,236 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 15:28:36,709 | ERROR | http | GET /fapi/v1/order 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-08-19 15:30:06,003 | WARNING | http |  Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 15:30:06,761 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 15:30:06,764 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 15:30:06,765 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 15:30:06,766 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 15:30:07,231 | ERROR | http | GET /fapi/v1/order 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-08-19 15:41:00,537 | WARNING | http |  Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 15:41:02,607 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 15:41:02,612 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 15:41:02,614 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 15:41:02,616 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 15:41:03,097 | ERROR | http | GET /fapi/v1/order 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-08-19 15:42:02,079 | WARNING | http |  Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 15:42:02,870 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 15:42:02,875 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 15:42:02,878 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 15:42:02,880 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 15:42:03,513 | ERROR | http | GET /fapi/v1/order 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-08-19 15:42:44,122 | WARNING | http |  Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 15:42:44,579 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 15:42:44,582 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 15:42:44,584 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 15:42:44,585 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 15:42:44,985 | ERROR | http | GET /fapi/v1/order 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-08-19 16:02:06,421 | WARNING | http |  Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 16:02:06,929 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 16:02:06,933 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 16:02:06,934 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 16:02:06,935 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 16:02:07,639 | ERROR | http | GET /fapi/v1/order 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-08-19 16:05:56,982 | WARNING | http |  Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 16:05:57,430 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 16:05:57,434 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 16:05:57,437 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 16:05:57,439 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 16:05:58,186 | ERROR | http | GET /fapi/v1/order 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-08-19 16:34:27,935 | WARNING | http |  Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 16:34:28,576 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 16:34:28,579 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 16:34:28,580 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 16:34:28,581 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 16:34:28,943 | ERROR | http | GET /fapi/v1/order 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-08-19 16:39:38,755 | WARNING | http |  Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 16:39:39,408 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 16:39:39,415 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 16:39:39,417 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 16:39:39,420 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 16:39:39,774 | ERROR | http | GET /fapi/v1/order 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-08-19 16:41:43,766 | WARNING | http |  Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 16:41:44,248 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 16:41:44,254 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 16:41:44,255 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 16:41:44,259 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 16:41:44,646 | ERROR | http | GET /fapi/v1/order 400: {"code":-1022,"msg":"Signature for this request is not valid."}
+2025-08-19 16:43:24,332 | WARNING | http |  Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 16:43:24,751 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 16:43:24,757 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 16:43:24,758 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 16:43:24,759 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 16:43:25,122 | ERROR | http | GET /fapi/v1/order 400: {"code":-1022,"msg":"Signature for this request is not valid."}
+2025-08-19 16:49:38,033 | WARNING | http |  Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 16:49:39,117 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 16:49:39,121 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 16:49:39,122 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 16:49:39,123 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 16:49:39,568 | ERROR | http | GET /fapi/v1/order 400: {"code":-1022,"msg":"Signature for this request is not valid."}
+2025-08-19 17:00:52,543 | WARNING | http |  Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 17:00:52,560 | ERROR | http | HTTP error: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v1/exchangeInfo (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022534028E90>: Failed to resolve 'testnet.binancefuture.com' ([Errno 11001] getaddrinfo failed)"))
+2025-08-19 17:06:53,792 | WARNING | http |  Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 17:06:55,355 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 17:06:55,359 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 17:06:55,361 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 17:06:55,362 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 17:06:56,049 | ERROR | http | GET /fapi/v1/order 400: {"code":-1022,"msg":"Signature for this request is not valid."}
+2025-08-19 17:10:18,795 | WARNING | http |  Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 17:10:19,945 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 17:10:19,948 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 17:10:19,950 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 17:10:19,951 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 17:10:20,431 | ERROR | http | GET /fapi/v1/order 400: {"code":-1022,"msg":"Signature for this request is not valid."}
+2025-08-19 17:12:28,334 | WARNING | http |  Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 17:12:30,099 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 17:12:30,105 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 17:12:30,107 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 17:12:30,111 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 17:12:30,785 | ERROR | http | GET /fapi/v1/order 400: {"code":-1022,"msg":"Signature for this request is not valid."}
+2025-08-19 17:21:13,736 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 17:21:15,096 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 17:21:15,100 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 17:21:15,102 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 17:21:15,103 | INFO | oco | TP: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'stopPrice': 71999.9, 'workingType': 'CONTRACT_PRICE'} | SL: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'reduceOnly': 'true', 'positionSide': 'BOTH', 'closePosition': 'true', 'side': 'SELL', 'type': 'STOP_MARKET', 'stopPrice': 65999.9, 'workingType': 'CONTRACT_PRICE'}
+2025-08-19 17:21:16,402 | ERROR | http | GET /fapi/v1/order 400: {"code":-1022,"msg":"Signature for this request is not valid."}
+2025-08-19 17:23:53,847 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 17:23:54,883 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 17:23:55,629 | ERROR | http | POST /fapi/v1/order 400: {"code":-1106,"msg":"Parameter 'reduceonly' sent when not required."}
+2025-08-19 17:30:47,845 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 17:30:49,558 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 17:30:50,854 | ERROR | http | POST /fapi/v1/order 400: {"code":-2021,"msg":"Order would immediately trigger."}
+2025-08-19 17:32:06,976 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 17:32:09,417 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 17:32:09,421 | INFO | market | Placing MARKET BUY BTCUSDT qty=0.001
+2025-08-19 17:32:09,422 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2025-08-19 17:32:09,423 | INFO | market | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2025-08-19 17:32:55,949 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 17:33:00,827 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 17:33:00,832 | INFO | limit | Placing LIMIT SELL BTCUSDT qty=0.001 price=69999.9
+2025-08-19 17:33:00,834 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 69999.9, 'timeInForce': 'GTC'}
+2025-08-19 17:33:00,836 | INFO | limit | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 69999.9, 'timeInForce': 'GTC'}
+2025-08-19 17:33:13,709 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 17:33:14,723 | ERROR | http | GET /fapi/v1/exchangeInfo 502: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+</body>
+</html>
+
+2025-08-19 17:35:52,625 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 17:35:53,986 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 17:35:53,991 | INFO | limit | Placing LIMIT SELL BTCUSDT qty=0.001 price=69999.9
+2025-08-19 17:35:53,993 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 69999.9, 'timeInForce': 'GTC'}
+2025-08-19 17:35:53,995 | INFO | limit | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 69999.9, 'timeInForce': 'GTC'}
+2025-08-19 17:36:34,915 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 17:36:36,089 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 17:36:36,092 | INFO | limit | Placing LIMIT SELL BTCUSDT qty=0.001 price=69999.9
+2025-08-19 17:36:36,094 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 69999.9, 'timeInForce': 'GTC'}
+2025-08-19 17:36:36,095 | INFO | limit | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 69999.9, 'timeInForce': 'GTC'}
+2025-08-19 17:36:48,942 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 17:36:49,889 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 17:36:49,892 | INFO | limit | Placing LIMIT SELL BTCUSDT qty=0.001 price=69999.9
+2025-08-19 17:36:49,894 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 69999.9, 'timeInForce': 'GTC'}
+2025-08-19 17:36:49,896 | INFO | limit | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 69999.9, 'timeInForce': 'GTC'}
+2025-08-19 17:39:21,004 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 17:39:21,970 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 17:39:21,973 | INFO | market | Placing MARKET BUY BTCUSDT qty=0.001
+2025-08-19 17:39:21,974 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2025-08-19 17:39:21,975 | INFO | market | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2025-08-19 17:39:52,867 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 17:39:53,778 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 17:39:53,781 | INFO | limit | Placing LIMIT SELL BTCUSDT qty=0.001 price=69999.9
+2025-08-19 17:39:53,784 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 69999.9, 'timeInForce': 'GTC'}
+2025-08-19 17:39:53,784 | INFO | limit | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 69999.9, 'timeInForce': 'GTC'}
+2025-08-19 17:40:27,666 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 17:40:28,507 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 17:40:28,510 | INFO | stop_limit | Placing STOP-LIMIT: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.001, 'price': 67999.9, 'stopPrice': 68499.9, 'timeInForce': 'GTC', 'workingType': 'CONTRACT_PRICE', 'priceProtect': 'TRUE'}
+2025-08-19 17:40:28,512 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.001, 'price': 67999.9, 'stopPrice': 68499.9, 'timeInForce': 'GTC', 'workingType': 'CONTRACT_PRICE', 'priceProtect': 'TRUE'}
+2025-08-19 17:40:28,513 | INFO | stop_limit | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.001, 'price': 67999.9, 'stopPrice': 68499.9, 'timeInForce': 'GTC', 'workingType': 'CONTRACT_PRICE', 'priceProtect': 'TRUE'}
+2025-08-19 17:40:59,717 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 17:41:00,570 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 17:41:00,575 | INFO | twap | TWAP BUY BTCUSDT total=0.01 slices=5 perSlice=0.002
+2025-08-19 17:41:00,577 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-19 17:41:00,578 | INFO | twap | Slice 1/5: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-19 17:41:10,581 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-19 17:41:10,582 | INFO | twap | Slice 2/5: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-19 17:41:20,584 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-19 17:41:20,585 | INFO | twap | Slice 3/5: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-19 17:41:30,587 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-19 17:41:30,588 | INFO | twap | Slice 4/5: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-19 17:41:40,590 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-19 17:41:40,591 | INFO | twap | Slice 5/5: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-19 17:41:46,923 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 17:41:47,874 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-19 17:41:47,881 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'price': 64999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 17:41:47,883 | INFO | grid | Grid BUY at 64999.9: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'price': 64999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 17:41:47,887 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'price': 66999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 17:41:47,888 | INFO | grid | Grid BUY at 66999.9: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'price': 66999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 17:41:47,890 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'price': 68999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 17:41:47,891 | INFO | grid | Grid BUY at 68999.9: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'price': 68999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 17:41:47,893 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'price': 70999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 17:41:47,893 | INFO | grid | Grid SELL at 70999.9: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'price': 70999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 17:41:47,895 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'price': 72999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 17:41:47,896 | INFO | grid | Grid SELL at 72999.9: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'price': 72999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 17:41:47,897 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'price': 74999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 17:41:47,897 | INFO | grid | Grid SELL at 74999.9: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'price': 74999.9, 'quantity': 0.001, 'timeInForce': 'GTC'}
+2025-08-19 17:41:47,898 | INFO | grid | Placed 6 grid orders
+2025-08-19 23:59:36,398 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-19 23:59:36,475 | ERROR | http | HTTP error: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v1/exchangeInfo (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002A4CE5DC890>: Failed to resolve 'testnet.binancefuture.com' ([Errno 11001] getaddrinfo failed)"))
+2025-08-20 00:00:09,028 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-20 00:00:09,035 | ERROR | http | HTTP error: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v1/exchangeInfo (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021DE869C890>: Failed to resolve 'testnet.binancefuture.com' ([Errno 11001] getaddrinfo failed)"))
+2025-08-20 00:00:56,552 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-20 00:00:56,559 | ERROR | http | HTTP error: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v1/exchangeInfo (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000145DBE1D0D0>: Failed to resolve 'testnet.binancefuture.com' ([Errno 11001] getaddrinfo failed)"))
+2025-08-20 00:01:38,217 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-20 00:01:38,222 | ERROR | http | HTTP error: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v1/exchangeInfo (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012314BAD890>: Failed to resolve 'testnet.binancefuture.com' ([Errno 11001] getaddrinfo failed)"))
+2025-08-20 00:01:49,355 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-20 00:01:49,361 | ERROR | http | HTTP error: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v1/exchangeInfo (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001DD5D479510>: Failed to resolve 'testnet.binancefuture.com' ([Errno 11001] getaddrinfo failed)"))
+2025-08-20 00:02:18,949 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-20 00:02:18,955 | ERROR | http | HTTP error: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v1/exchangeInfo (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000187DCBBC890>: Failed to resolve 'testnet.binancefuture.com' ([Errno 11001] getaddrinfo failed)"))
+2025-08-20 00:03:04,186 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-20 00:03:16,238 | ERROR | http | HTTP error: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v1/exchangeInfo (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002249554CBD0>: Failed to resolve 'testnet.binancefuture.com' ([Errno 11001] getaddrinfo failed)"))
+2025-08-20 00:03:39,665 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-20 00:03:42,797 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-20 00:03:42,801 | INFO | market | Placing MARKET BUY BTCUSDT qty=0.001
+2025-08-20 00:03:42,802 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2025-08-20 00:03:42,803 | INFO | market | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2025-08-20 00:03:53,932 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-20 00:03:55,898 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-20 00:03:55,901 | INFO | limit | Placing LIMIT SELL BTCUSDT qty=0.001 price=69999.9
+2025-08-20 00:03:55,902 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 69999.9, 'timeInForce': 'GTC'}
+2025-08-20 00:03:55,903 | INFO | limit | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 69999.9, 'timeInForce': 'GTC'}
+2025-08-20 00:04:06,449 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-20 00:04:08,084 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-20 00:04:08,088 | INFO | stop_limit | Placing STOP-LIMIT: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.001, 'price': 67999.9, 'stopPrice': 68499.9, 'timeInForce': 'GTC', 'workingType': 'CONTRACT_PRICE', 'priceProtect': 'TRUE'}
+2025-08-20 00:04:08,090 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.001, 'price': 67999.9, 'stopPrice': 68499.9, 'timeInForce': 'GTC', 'workingType': 'CONTRACT_PRICE', 'priceProtect': 'TRUE'}
+2025-08-20 00:04:08,091 | INFO | stop_limit | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.001, 'price': 67999.9, 'stopPrice': 68499.9, 'timeInForce': 'GTC', 'workingType': 'CONTRACT_PRICE', 'priceProtect': 'TRUE'}
+2025-08-20 00:04:29,669 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-20 00:04:31,397 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-20 00:04:31,402 | INFO | twap | TWAP BUY BTCUSDT total=0.01 slices=5 perSlice=0.002
+2025-08-20 00:04:31,404 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-20 00:04:31,405 | INFO | twap | Slice 1/5: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-20 00:04:41,409 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-20 00:04:41,410 | INFO | twap | Slice 2/5: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-20 00:04:51,412 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-20 00:04:51,413 | INFO | twap | Slice 3/5: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-20 00:05:01,416 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-20 00:05:01,417 | INFO | twap | Slice 4/5: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-20 00:05:11,419 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-20 00:05:11,420 | INFO | twap | Slice 5/5: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2025-08-20 00:10:22,699 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-20 00:10:23,948 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-20 00:10:23,952 | INFO | market | Placing MARKET BUY BTCUSDT qty=0.001
+2025-08-20 00:10:23,953 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2025-08-20 00:10:23,954 | INFO | market | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2025-08-20 00:11:35,615 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-20 00:11:37,028 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-20 00:11:37,032 | INFO | limit | Placing LIMIT SELL BTCUSDT qty=0.001 price=69999.9
+2025-08-20 00:11:37,033 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 69999.9, 'timeInForce': 'GTC'}
+2025-08-20 00:11:37,034 | INFO | limit | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 69999.9, 'timeInForce': 'GTC'}
+2025-08-20 00:12:03,818 | WARNING | http | Live API cannot access Futures. Switching to TESTNET: https://testnet.binancefuture.com
+2025-08-20 00:12:05,045 | INFO | utils | Loaded rules for BTCUSDT
+2025-08-20 00:12:05,048 | INFO | stop_limit | Placing STOP-LIMIT: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.001, 'price': 67999.9, 'stopPrice': 68499.9, 'timeInForce': 'GTC', 'workingType': 'CONTRACT_PRICE', 'priceProtect': 'TRUE'}
+2025-08-20 00:12:05,048 | INFO | http | [DRY_RUN] Would place order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.001, 'price': 67999.9, 'stopPrice': 68499.9, 'timeInForce': 'GTC', 'workingType': 'CONTRACT_PRICE', 'priceProtect': 'TRUE'}
+2025-08-20 00:12:05,049 | INFO | stop_limit | Response: DRY_RUN: {'dryRun': True, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.001, 'price': 67999.9, 'stopPrice': 68499.9, 'timeInForce': 'GTC', 'workingType': 'CONTRACT_PRICE', 'priceProtect': 'TRUE'}

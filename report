@@ -1,0 +1,28 @@
+# Report: Binance Futures Order Bot
+
+**Date:** 2025-08-19
+
+## Overview
+This bot targets Binance **USDT-M Futures Testnet** and implements core order types (Market, Limit) plus **Stop-Limit** and a simple **TWAP** strategy. All API interactions use the official python-binance client with the base URL set to `https://testnet.binancefuture.com`.
+
+## Screenshots / Evidence (suggested)
+- Include screenshots of successful order placement from Binance Testnet UI and logs from `bot.log`.
+
+## Design
+- `FuturesClient`: centralizes Base URL, logging, retries, and convenience order methods.
+- CLIs: Small, focused entrypoints that parse/validate arguments, then call the client.
+
+## Logging
+- Logs to `bot.log` with timestamps: requests, responses, warnings, and errors.
+
+## Validation
+- Basic validation on sides, positive numeric fields, and soft-check against symbol filters when available.
+
+## Bonus
+- **Stop-Limit**: Uses `FUTURE_ORDER_TYPE_STOP` with `stopPrice` and `price`.
+- **TWAP**: Splits a large order into multiple slices, spaced by an interval.
+
+## Future Work
+- Add leverage & margin type controls.
+- WebSocket to stream fills and PnL.
+- Rich TIF and post-only support.
